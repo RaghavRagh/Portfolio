@@ -1,0 +1,55 @@
+.hero-wrapper {
+  color: rgba(255, 255, 255, 0.76);
+  margin-top: 3rem;
+}
+
+.hero-container {
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "General Sans Medium";
+}
+
+.hero-container .headings {
+  font-size: 7vw;
+  font-weight: 900;
+  width: fit-content;
+}
+
+.blockText {
+  display: flex;
+  justify-content: space-between;
+  /* display: inline;
+    text-align: right; */
+}
+
+#graphic {
+  /* background-color: #e63946; */
+  width: fit-content;
+}
+
+#designer {
+  margin-left: 230px;
+  /* background-color: #457b9d; */
+  /* color: rgb(0, 0, 0); */
+  /* display: inline; */
+}
+
+.countryDescription {
+  margin-right: 7rem;
+  font-size: 1.5vw;
+  gap: 0.5rem;
+}
+
+@media (max-width: 1536px) {
+  .countryDescription {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 450px) {
+    .headings {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: start;
+    }
+}
